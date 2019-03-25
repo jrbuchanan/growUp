@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family: "Asap", Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 250%;
+    text-align:center;
+}
+
+a {
+    color: #000;
+}
+
+/* header */
+
+.header {
+    background-color: #9ABA3E;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+/* 48em = 768px */
+
+section {
+    padding-top: 100px;
+    padding-left:25px;
+    padding-right: 25px;  
+}
+
+#welcome {
+    display: block;
+    width:100%;
+}
+
+#introduction {
+    width: 100%;
+}
+
+#link {
+    text-align:center;
+
+}
+
+#link-button {
+    background-color:#9ABA3E;
+    padding:10px;
+    border: 1px solid black;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    margin:50px;
+    text-decoration:none;
+    color:white;    
+}
+
+#cover-pic img {
+    margin-top:50px;
+    width:40%;
+    height:auto;
+}
+
+#leader-guide {
+    padding-bottom: 50px;
+
+}
+#first {
+    background-color:blue;
+}
+
+#second {
+    background-color:green;
+}
+
+#order {
+    background-color:purple;
+}
+
+#covenant {
+    
+    height:100vh;
+  
+}
+
+#covenant-txt {
+    margin: 0 auto;
+    width:40%;
+    padding:25px;
+    background-color:#9ABA3E;
+    border: 3px solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color:white;
+}
+
+
+
+
+@media only screen and (min-width: 780px) {
+    .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 20px 30px;
+    }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+
+    #welcome {
+        display: flex;
+        height:100vh;
+    }
+
+    #cover-pic img {
+        padding:50px;
+        height:50%;
+        width:auto;
+    }
+
+    #link-button {
+        background-color: #9ABA3E;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        margin: 50px;
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+
+    }
+
+    
+
+   
+}
+
+
+
+
