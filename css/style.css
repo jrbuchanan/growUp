@@ -64,7 +64,6 @@ a {
 .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
     padding: 28px 20px;
     position: relative;
     user-select: none;
@@ -128,7 +127,7 @@ a {
 /* 48em = 768px */
 
 section {
-    padding-top: 100px;
+    padding-top: 75px;
     padding-left:25px;
     padding-right: 25px;  
 }
@@ -147,7 +146,7 @@ section {
 
 }
 
-#link-button {
+.link-button {
     background-color:#9ABA3E;
     padding:10px;
     border: 1px solid black;
@@ -171,37 +170,99 @@ section {
     padding-bottom: 50px;
 
 }
-#first {
-    background-color:blue;
-}
-
-#second {
-    background-color:green;
-}
-
-#order {
-    background-color:purple;
-}
 
 #covenant {
-    
     height:100vh;
-  
 }
 
 #covenant-txt {
     margin: 0 auto;
-    width:40%;
-    padding:25px;
-    background-color:#9ABA3E;
+    width: 70%;
+    padding: 25px;
+    background-color: #9ABA3E;
     border: 3px solid black;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    color:white;
+    color: white;
 }
+
+#first-text{
+    margin: 0 auto;
+    width:100%;
+    padding:25px; 
+}
+
+#first h2 {
+    text-align:center;
+    font-size:250%;
+}
+
+#first p {
+    font-size:120%;
+    text-align:justify
+}
+
+#first h3 {
+    font-size:150%;
+    text-emphasis: bold;
+    text-align:center;
+}
+
+.scripture-reference {
+    font-size: 150%;
+
+}
+
+iframe {
+    width:230;
+    height: 158;
+    margin: 0 auto;
+    display:block;
+}
+
+#scripture-reading h3{
+    text-align:center;
+   
+}
+.week-odd {
+    background-color:#9ABA3E;
+    padding:10px;
+    text-align:center;
+
+}
+
+.week-even {
+    padding:10px;
+    background-color:rgb(218, 228, 188);
+    text-align:center;
+}
+
+.week-content {
+    display:none;
+    
+}
+
+.button {
+    border: 2px solid black;
+    background-color:grey;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration:none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+
+
 
 
 
@@ -252,9 +313,12 @@ section {
 
     }
 
-    
+    #first-text {
+        margin: 0 auto;
+        width: 55%;
+        padding: 25px;
+    }
 
-   
 }
 
 
