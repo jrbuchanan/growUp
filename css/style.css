@@ -133,7 +133,7 @@ a {
 
 .resource-list{
     background-color:#9ABA3E;
-    width:55%;
+    width:60%;
     margin: 0 auto;
    
 }
@@ -147,15 +147,10 @@ a {
      text-decoration:none;
 }
 
-
-
-
-
-
 section {
     padding-top: 95px;
-    padding-left:25px;
-    padding-right: 25px;  
+    padding-right: 25px; 
+    margin-left:25px; 
 }
 
 #welcome {
@@ -163,16 +158,11 @@ section {
    
 }
 
-#introduction {
-   
-}
-
 #link {
     text-align:center;
-
 }
 
-.link-button {
+#link-button {
     background-color:#9ABA3E;
     padding:10px;
     border: 1px solid black;
@@ -181,7 +171,6 @@ section {
     -moz-border-radius:15px;
     -ms-border-radius:15px;
     -o-border-radius:15px;
-    margin:50px;
     text-decoration:none;
     color:white;    
 }
@@ -292,12 +281,6 @@ iframe {
 
 
 
-
-
-
-
-
-
 @media only screen and (min-width: 700px) {
     .header li {
         float: left;
@@ -324,11 +307,11 @@ iframe {
 
     #cover-pic img {
         padding:50px;
-        height:50%;
+        height:20%;
         width:auto;
     }
 
-    #link-button {
+    .link-button {
         background-color: #9ABA3E;
         padding: 15px;
         border: 1px solid black;
@@ -354,8 +337,15 @@ iframe {
         background-color: #9ABA3E;
         width: 35%;
         margin: 0 auto;
-
     }
+
+    iframe {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    
 
 
 }
