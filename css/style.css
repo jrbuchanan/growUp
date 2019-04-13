@@ -148,7 +148,7 @@ a {
 }
 
 section {
-    padding-top: 95px;
+    padding-top: 100px;
     padding-right: 25px; 
     margin-left:25px; 
 }
@@ -264,9 +264,9 @@ section {
     text-emphasis: bold;
 }
 
- .checkbox-container{
+ /* .checkbox-container{
     display: none;
-}   
+}    */
 
 label {
     font-size: 120%;
@@ -350,11 +350,16 @@ iframe {
     height:300px;
 }
 
+.add-resources ul{
+    list-style-type:none;
+
+}
+
 
 
 @media only screen and (max-width:330px ){
     section {
-        padding-top: 110px;
+        padding-top: 120px;
         padding-right: 25px;
         margin-left: 25px;
     }
