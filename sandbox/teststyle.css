@@ -1,13 +1,13 @@
 body {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
     font-family: "Asap", Helvetica, sans-serif;
     background-color: #f4f4f4;
 }
 
 h1 {
     font-size: 200%;
-    text-align:center;
+    text-align: center;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 /* header */
 
 #cover-pic {
-    text-align:center;
+    text-align: center;
 }
 
 .header {
@@ -131,67 +131,67 @@ a {
 
 /* 48em = 768px */
 
-.resource-list{
-    background-color:#9ABA3E;
-    width:60%;
+.resource-list {
+    background-color: #9ABA3E;
+    width: 60%;
     margin: 0 auto;
-   
+
 }
 
 .resource-list h2 {
-    text-align:center;
-     padding:10px;
+    text-align: center;
+    padding: 10px;
 }
 
 .resource-list a {
-     text-decoration:none;
+    text-decoration: none;
 }
 
 section {
     padding-top: 100px;
-    padding-right: 25px; 
-    margin-left:25px; 
+    padding-right: 25px;
+    margin-left: 25px;
 }
 
 #welcome {
     display: block;
-   
+
 }
 
 #link {
-    text-align:center;
+    text-align: center;
 }
 
 #link-button {
-    background-color:#1F419A;
+    background-color: #1F419A;
     padding: 10px;
-   
+
     border: 1px solid black;
-    border-radius:15px;
-    -webkit-border-radius:15px;
-    -moz-border-radius:15px;
-    -ms-border-radius:15px;
-    -o-border-radius:15px;
-    text-decoration:none;
-    color:white;    
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 #construction-img {
-  
-    text-align:center;
-    margin:50px;
+
+    text-align: center;
+    margin: 50px;
 }
 
 #cover-pic img {
 
-    width:35%;
-    height:auto;
+    width: 35%;
+    height: auto;
 }
 
 #cover-pic {
-    background-color:#9ABA3E;
-    margin:10px;
-    padding:10px;
+    background-color: #9ABA3E;
+    margin: 10px;
+    padding: 10px;
 }
 
 #leader-guide {
@@ -200,7 +200,7 @@ section {
 }
 
 #covenant {
-    height:100vh;
+    height: 100vh;
 }
 
 #covenant-txt {
@@ -219,39 +219,45 @@ section {
 
 /* first120 start */
 
+/* .checkbox-container {
+    display: none;
+} */
+
+
 #first-text {
-    padding-top:90px;
+    padding-top: 90px;
 }
+
 .week-odd {
     background-color: #9ABA3E;
     padding: 25px;
     text-align: center;
-    
+
 }
 
 .week-even {
     background-color: #e0eac5;
     padding: 25px;
     text-align: center;
-    
+
 }
 
 .day {
     margin-top: 20px;
     margin-bottom: 20px
-} 
+}
 
 #first-text {
     margin: 0 auto;
     width: 85%;
     padding: 25px;
-    padding-top:150px;
+    padding-top: 150px;
 }
 
 #first-text h2 {
     text-align: center;
     font-size: 200%;
-  
+
 }
 
 #first-text p {
@@ -264,13 +270,10 @@ section {
     text-emphasis: bold;
 }
 
-.checkbox-container{
-    display: none;
-}   win
 
 label {
     font-size: 120%;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .scripture-reference {
@@ -283,11 +286,11 @@ iframe {
     height: auto;
     margin: 0 auto;
     display: block;
-    background-color:#333;
-    padding:2px;
+    background-color: #333;
+    padding: 2px;
     border-width: 10px;
     box-shadow: 3px 3px black;
-    border-style:groove;
+    border-style: groove;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -309,12 +312,12 @@ iframe {
 }
 
 .scripture {
-    font-size:120%;
-    margin-top:15px;
-    margin-bottom:15px;
-    padding:5px;    
-    background-color:#1F419A;
-    color:white;
+    font-size: 120%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #1F419A;
+    color: white;
 }
 
 
@@ -322,11 +325,11 @@ iframe {
 
 #construction img {
     padding-top: 75px;
-    width:100%;
+    width: 100%;
 }
 
 .list-group-item {
-    list-style-type:none;
+    list-style-type: none;
 }
 
 .list-group li {
@@ -342,17 +345,17 @@ iframe {
 }
 
 .save-cb-state {
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
 }
 
 .hearinput {
-    width:500px;
-    height:300px;
+    width: 500px;
+    height: 300px;
 }
 
-.add-resources ul{
-    list-style-type:none;
+.add-resources ul {
+    list-style-type: none;
 
 }
 
@@ -368,12 +371,52 @@ iframe {
     background: #333;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9)
+}
 
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),
+        0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover,
+.closedBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.passageDisplay {
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+
+}
 
 /*End Modal Section */
 
 
-@media only screen and (max-width:330px ){
+@media only screen and (max-width:330px) {
     section {
         padding-top: 120px;
         padding-right: 25px;
@@ -405,17 +448,17 @@ iframe {
 
     #welcome {
         display: flex;
-        height:100vh;
+        height: 100vh;
     }
 
     #cover-pic img {
-        padding:50px;
-        height:20%;
-        width:auto;
+        padding: 50px;
+        height: 20%;
+        width: auto;
     }
 
     #cover-pic {
-        width:30%;
+        width: 30%;
     }
 
     .link-button {
@@ -438,38 +481,38 @@ iframe {
         margin: 0 auto;
         width: 55%;
         padding: 25px;
-        padding-top:100px;
+        padding-top: 100px;
 
     }
 
-     #first-text h2 {
-         text-align: center;
-         font-size: 200%;
-     }
+    #first-text h2 {
+        text-align: center;
+        font-size: 200%;
+    }
 
-     #first-text p {
-         font-size: 120%;
-         text-align: justify
-     }
+    #first-text p {
+        font-size: 120%;
+        text-align: justify
+    }
 
-     #first h3 {
-         font-size: 150%;
-         text-emphasis: bold;
-     }
+    #first h3 {
+        font-size: 150%;
+        text-emphasis: bold;
+    }
 
-     label {
-         font-size: 150%;
-     }
+    label {
+        font-size: 150%;
+    }
 
-     .scripture-reference {
-         font-size: 150%;
-     }
+    .scripture-reference {
+        font-size: 150%;
+    }
 
-     .resource-list {
-         background-color: #9ABA3E;
-         width: 35%;
-         margin: 0 auto;
-     }
+    .resource-list {
+        background-color: #9ABA3E;
+        width: 35%;
+        margin: 0 auto;
+    }
 
     .resource-list {
         background-color: #9ABA3E;
@@ -489,9 +532,9 @@ iframe {
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
-        -o-border-radius: 10px;   
+        -o-border-radius: 10px;
     }
-    
+
     section {
         padding-top: 90px;
         /* padding-right: 25px;  */
@@ -499,14 +542,6 @@ iframe {
     }
 
     .modal {
-        top:20px;
+        top: 20px;
     }
 }
-
-
-
-
-
-
-
-
